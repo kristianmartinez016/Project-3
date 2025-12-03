@@ -4,11 +4,12 @@
 }
 
 html {
-  color: #222;
+  color: #c7f0c7;
   line-height: 1.4;
   font-size: 16pt;
   text-align: center;
   font-family: Helvetica;
+  background-color: #6e0d1a;
 }
 
 /* FONTS */
@@ -38,6 +39,24 @@ html {
 
 header {
   font-family: Caveat Brush;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  width: auto;
+
+  padding: 0 20rem;
+  font-size: 1.25rem
+}
+
+a {
+  color: #637263;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c7f0c7;
+  font-size: 1.35rem
 }
 
 h1 {
@@ -59,4 +78,5 @@ h3 {
 
 p {
   font-family: Caveat Brush;
+  font-size: 1.15rem;
 }
