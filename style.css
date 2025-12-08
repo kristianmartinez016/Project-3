@@ -45,7 +45,7 @@ header {
   height: 6rem;
   width: auto;
   padding: 0 20rem;
-  font-size: 1.25rem
+  font-size: 1.25rem;
 }
 
 a {
@@ -102,7 +102,9 @@ img {
   grid-template-columns: 1fr 3fr 1fr;
   justify-content: center;
   justify-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
+  border-bottom: 2.5px solid #637263;
+  margin: 2rem 0;
 }
 
 .hook {
