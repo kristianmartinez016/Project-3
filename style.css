@@ -83,3 +83,8 @@ p {
   font-family: Caveat Brush;
   font-size: 1.15rem;
 }
+
+img {
+  width: 20rem;
+  height: auto;
+}
