@@ -238,3 +238,30 @@ footer {
   border-radius: 3rem;
   background-color: rgb(77 21 28 / 65%);
 }
+
+
+
+/* PHONE SCREEN */
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 0 3rem;
+    font-size: 2rem
+  }
+
+  footer {
+    background-size: 30rem;
+    background-position: top;
+    height: 15rem;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 3.5rem
+  }
+
+  .footer-disclaimer {
+    font-size: 1.5rem;
+  }
