@@ -63,7 +63,7 @@ a:hover {
 }
 
 main {
-  margin: 0 15rem;
+  margin: 0 7rem;
 }
 
 h1 {
@@ -318,7 +318,7 @@ footer {
   /* ABOUT */
 
   .about-text {
-    padding: 0 1rem;
+    padding: 0rem;
   }
 
   .monkey-icon {
