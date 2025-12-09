@@ -114,3 +114,18 @@ img {
 .info {
   line-height: 2rem
 }
+
+/* ABOUT */
+
+.about-title {
+  border-bottom: 2.5px solid #637263;
+  margin: 2rem 0;
+}
+
+.what-is-this {
+  margin-top: -2.2rem;
+}
+
+.scared {
+  margin: -2rem 0 2rem 0;
+}
