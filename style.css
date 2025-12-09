@@ -9,7 +9,11 @@ html {
   font-size: 16pt;
   text-align: center;
   font-family: Helvetica;
-  background-color: #6e0d1a;
+  /*background-color: #6e0d1a;*/ /*just to have the color in case */
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/Texturelabs_Paper_304L.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* FONTS */
@@ -44,7 +48,7 @@ header {
   align-items: center;
   height: 6rem;
   width: auto;
-  padding: 0 20rem;
+  padding: 0 18rem;
   font-size: 1.25rem;
 }
 
@@ -91,6 +95,36 @@ img {
   height: auto;
 }
 
+/* FOOTER */
+
+footer {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/snow.png?raw=true");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  line-height: 2rem;
+  align-items: center;
+  margin-top: -5rem;
+}
+
+.background-link, .monkey-link {
+  font-family: Caveat Brush;
+}
+
+.background-link:hover, .monkey-link:hover {
+  color: #6e0d1a;
+  font-size: 1rem;
+}
+
+.footer-disclaimer {
+  font-size: 1rem;
+  color: #637263;
+}
+
 /* HOME */
 
 .invitation {
@@ -113,8 +147,13 @@ img {
 }
 
 .info {
-  line-height: 2rem
-}
+  line-height: 2rem;
+  border: 2.5px solid #637263;
+  border-radius: 3rem;
+  margin: 0 15rem;
+  align-self: center;
+  padding: 1rem 0 0.5rem 0;
+  background-color: rgb(77 21 28 / 65%);
 
 /* ABOUT */
 
@@ -172,5 +211,6 @@ img {
   align-content: center;
   padding: 0 8rem 0 2rem;
   border: 2.5px solid #637263;
-  border-radius: 5rem
+  border-radius: 3rem;
+  background-color: rgb(77 21 28 / 65%);
 }
