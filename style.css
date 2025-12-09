@@ -256,29 +256,29 @@ footer {
   }
 
   main {
-    margin: 0 2rem
+    margin: 0 1.5rem;
   }
 
   h1 {
-    font-size: 3rem
+    font-size: 3rem;
   }
 
   h2 {
     font-size: 2rem;
   }
-
   
 
 /* FOOTER */
 
   footer {
+    background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/snow_2.png?raw=true");
     background-size: 30rem;
-    background-position: center;
-    height: 15rem;
+    background-position: top;
     line-height: 1rem;
     font-size: 1.25rem;
     line-height: 3.5rem;
-    height: 17rem
+    height: 17rem;
+    margin-top: 4rem
   }
 
   .footer-disclaimer {
@@ -288,7 +288,7 @@ footer {
 /* HOME */
 
   .title {
-    grid-template: repeat(2, 45%) / repeat(2, 50%);
+    grid-template: repeat(2, 50%) / repeat(2, 50%);
     margin: 3rem 0;
   }
 
