@@ -248,20 +248,69 @@ footer {
     font-size: 14px;
   }
 
+/* HEADER AND MAIN ALL */
+  
   header {
     padding: 0 3rem;
-    font-size: 2rem
+    font-size: 1.25rem;
   }
+
+  main {
+    margin: 0 2rem
+  }
+
+  h1 {
+    font-size: 3rem
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  
+
+/* FOOTER */
 
   footer {
     background-size: 30rem;
-    background-position: top;
+    background-position: center;
     height: 15rem;
-    line-height: 1.5rem;
-    font-size: 1.5rem;
-    line-height: 3.5rem
+    line-height: 1rem;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+    height: 17rem
   }
 
   .footer-disclaimer {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+/* HOME */
+
+  .title {
+    grid-template: repeat(2, 45%) / repeat(2, 50%);
+    margin: 3rem 0;
+  }
+
+  .title-text {
+    order: 1;
+    grid-column: span 2;
+  }
+
+  .paolo-icon {
+    order: 2;
+    height: 10rem;
+    width: auto;
+    justify-self: end;
+  }
+
+  .me-icon {
+    order: 3;
+    height: 10rem;
+    width: auto;
+    justify-self: start;
+  }
+
+  .info {
+    margin: 0 1rem
   }
