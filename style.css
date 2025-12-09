@@ -59,11 +59,11 @@ a {
 
 a:hover {
   color: #c7f0c7;
-  font-size: 1.35rem;
+  font-size: 1.35rem
 }
 
 main {
-  margin: 0 7rem;
+  margin: 0 15rem;
 }
 
 h1 {
@@ -256,7 +256,7 @@ footer {
   }
 
   main {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
   }
 
   h1 {
@@ -313,4 +313,15 @@ footer {
 
   .info {
     margin: 0 1rem
+  }
+
+  /* ABOUT */
+
+  .about-text {
+    padding: 0 1rem;
+  }
+
+  .monkey-icon {
+    height: 22rem;
+    width: auto
   }
