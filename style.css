@@ -162,13 +162,9 @@ img {
   gap: 1.5rem 0
 }
 
-/* .dinner-icon, .elephant-icon, .quizmas-icon, .what-icon {
+.dinner-icon, .elephant-icon, .quizmas-icon, .what-icon {
   width: 20rem;
   height: auto;
-} */
-
-.dinner-pic {
-  background-image: url("./assets/dinner.png");
 }
 
 .dinner-text, .white-elephant-text, .christmas-quizmas-text, .mystery-text {
