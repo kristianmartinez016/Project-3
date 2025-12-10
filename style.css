@@ -55,6 +55,7 @@ header {
 a {
   color: #637263;
   text-decoration: none;
+  transition: scale-up 500ms ease-in-out;
 }
 
 a:hover {
@@ -69,30 +70,35 @@ main {
 h1 {
   font-family: Berkshire Swash;
   font-size: 4rem;
+  animation: fade-up 700ms ease-out;
 }
 
 h2 {
   font-family: Truculenta;
   font-size: 2rem;
   font-weight: 800;
+  animation: fade-down 700ms ease-out;
 }
 
 h3 {
   font-family: Truculenta;
   font-size: 1.5rem;
   font-weight: 650;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
+  animation: fade-in 700ms ease-out;
 }
 
 p {
   font-family: Caveat Brush;
   font-size: 1.15rem;
   margin-bottom: 1rem;
+  animation: fade-in 900ms ease-out;
 }
 
 img {
   width: 12.5rem;
   height: auto;
+  animation: fade-up 900ms ease-out;
 }
 
 /* FOOTER */
@@ -241,7 +247,49 @@ footer {
   background-color: rgb(77 21 28 / 65%);
 }
 
+/* KEYFRAME ANIMATIONS */
 
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 /* PHONE SCREEN */
 
@@ -370,17 +418,4 @@ footer {
     text-align: center;
     padding: 0 4rem;
   }
-
-
-  /* KEYFRAME ANIMATIONS */
-
-  @keyframes fade-up {
-    0% {
-      opacity: 0;
-      transform: translateY(1rem); scale(0.5);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0px); scale(1);
-    }
-  }
+}
