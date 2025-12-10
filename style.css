@@ -43,13 +43,16 @@ html {
 
 header {
   font-family: Caveat Brush;
+  width: auto;
+  padding: 0 18rem;
+  font-size: 1.25rem;
+}
+
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 6rem;
-  width: auto;
-  padding: 0 18rem;
-  font-size: 1.25rem;
 }
 
 a {
