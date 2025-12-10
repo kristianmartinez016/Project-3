@@ -246,6 +246,10 @@ footer {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 14px;
+    background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/phone_bg.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 /* HEADER AND MAIN ALL */
@@ -336,7 +340,7 @@ footer {
     display: grid;
     grid-template: repeat(8, 30%) / repeat(1, 100%);
     gap: 1.5rem 0;
-    margin-bottom: 85rem;
+    margin-bottom: 82rem;
   }
 
   .dinner-pic {
