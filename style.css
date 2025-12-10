@@ -336,7 +336,7 @@ footer {
     display: grid;
     grid-template: repeat(8, 30%) / repeat(1, 100%);
     gap: 1.5rem 0;
-    margin-bottom: 80rem;
+    margin-bottom: 85rem;
   }
 
   .dinner-pic {
