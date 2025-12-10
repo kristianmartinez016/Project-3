@@ -294,6 +294,7 @@ footer {
   .title {
     grid-template: repeat(2, 50%) / repeat(2, 50%);
     margin: 3rem 0;
+    transition: fade-in 800ms ease-in 500ms;
   }
 
   .title-text {
@@ -383,4 +384,16 @@ footer {
     order: 8;
     text-align: center;
     padding: 0 4rem;
+  }
+
+
+  /* KEYFRAME ANIMATIONS */
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
