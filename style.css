@@ -141,6 +141,18 @@ footer {
   margin: 2rem 0;
 }
 
+.title-text {
+  animation: fade-up 0.75s ease-in-out 1000ms;
+}
+
+.paolo-icon {
+  animation: fade-up 0.75s ease-in-out 1100ms;
+}
+
+.me-icon {
+  animation: fade-up 0.75s ease-in-out 1200ms;
+}
+
 .hook {
   margin-bottom: 3rem;
 }
@@ -294,7 +306,6 @@ footer {
   .title {
     grid-template: repeat(2, 50%) / repeat(2, 50%);
     margin: 3rem 0;
-    animation: fade-up 1s ease-in-out;
   }
 
   .hook {
