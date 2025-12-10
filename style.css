@@ -318,10 +318,65 @@ footer {
   /* ABOUT */
 
   .about-text {
-    padding: 0rem;
+    padding: 0 1rem;
   }
 
   .monkey-icon {
     height: 22rem;
     width: auto
+  }
+
+  /* SCHEDULE */
+
+  .what-we-doing {
+    padding: 0 5rem;
+  }
+
+  .events {
+    display: grid;
+    grid-template: repeat(8, 30%) / repeat(1, 100%);
+    gap: 1.5rem 0;
+    margin-bottom: 80rem;
+  }
+
+  .dinner-pic {
+    background-size: 19rem;
+    order: 1
+  }
+
+  .dinner-text {
+    order: 2;
+    text-align: center;
+  }
+
+  .white-elephant-pic {
+    background-size: 16.5rem;
+    order: 3;
+  }
+
+  .white-elephant-text {
+    order: 4;
+    text-align: center;
+  }
+
+  .christmas-quizmas-pic {
+    background-size: 21rem;
+    order: 5;
+  }
+
+  .christmas-quizmas-text {
+    order: 6;
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+  .mystery-pic {
+    background-size: 18rem;
+    order: 7;
+  }
+
+  .mystery-text {
+    order: 8;
+    text-align: center;
+    padding: 0 4rem;
   }
