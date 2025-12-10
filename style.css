@@ -91,7 +91,7 @@ p {
 }
 
 img {
-  width: 10rem;
+  width: 12.5rem;
   height: auto;
 }
 
@@ -131,33 +131,20 @@ footer {
   margin-top: 1rem;
 }
 
-.title {
-  justify-content: center;
-  justify-items: center;
-  margin-bottom: 3rem;
-  border-bottom: 2.5px solid #637263;
+.title-text {
+  margin-bottom: -1.5rem;
+}
+
+.brothers {
+  display: flex;
+  justify-content: space-around;
+  align-content: bottom;
   margin: 2rem 0;
 }
 
-.title-text {
-  animation: fade-up 800ms ease-out;
-  margin-bottom: -0.5rem;
-}
-
-.paolo-icon {
-  animation: fade-up 900ms ease-out;
-}
-
-.isaiah-icon {
-  animation: fade-up 950ms ease-out;
-}
-
-.me-icon {
-  animation: fade-up 1000ms ease-out ;
-}
-
 .hook {
-  margin-bottom: 3rem;
+  border-top: 2.5px solid #637263;
+  padding: 3rem 0 3rem; 0;
 }
 
 .info {
@@ -305,9 +292,14 @@ footer {
   }
 
 /* HOME */
+  
+  .paolo-icon, .isaiah-icon, .me-icon {
+    justify-self: center;
+    width: 8rem;
+    height: auto;
+  }
 
-.title {
-    margin: 3rem 0;
+  .hook {
   }
 
   .info {
