@@ -137,7 +137,7 @@ footer {
 
 .brothers {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-content: bottom;
   margin: 2rem 0;
 }
@@ -294,7 +294,6 @@ footer {
 /* HOME */
   
   .paolo-icon, .isaiah-icon, .me-icon {
-    justify-self: center;
     width: 8rem;
     height: auto;
   }
