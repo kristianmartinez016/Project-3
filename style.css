@@ -142,15 +142,15 @@ footer {
 }
 
 .title-text {
-  animation: fade-up 0.75s ease-in-out 1000ms;
+  animation: fade-up 800ms ease-out;
 }
 
 .paolo-icon {
-  animation: fade-up 0.75s ease-in-out 1100ms;
+  animation: fade-up 900ms ease-out;
 }
 
 .me-icon {
-  animation: fade-up 0.75s ease-in-out 1200ms;
+  animation: fade-up 900ms ease-out ;
 }
 
 .hook {
