@@ -294,7 +294,11 @@ footer {
   .title {
     grid-template: repeat(2, 50%) / repeat(2, 50%);
     margin: 3rem 0;
-    transition: fade-in 800ms ease-in 500ms;
+    animation: fade-up 1s ease-in-out;
+  }
+
+  .hook {
+    margin-bottom: 
   }
 
   .title-text {
@@ -389,11 +393,13 @@ footer {
 
   /* KEYFRAME ANIMATIONS */
 
-  @keyframes fade-in {
+  @keyframes fade-up {
     0% {
       opacity: 0;
+      transform: translateY(1rem); scale(0.5);
     }
     100% {
       opacity: 1;
+      transform: translateY(0px); scale(1);
     }
   }
