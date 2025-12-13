@@ -114,7 +114,7 @@ footer {
   height: 20rem;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   line-height: 2rem;
   align-items: center;
 }
@@ -360,6 +360,7 @@ footer {
   }
 
   .hook {
+    padding: 2rem 2.5rem;
   }
 
   .info {
