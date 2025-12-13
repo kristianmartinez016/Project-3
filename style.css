@@ -114,16 +114,16 @@ footer {
   height: 20rem;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   line-height: 2rem;
   align-items: center;
 }
 
-.background-link, .monkey-link {
+.mystery-link {
   font-family: Caveat Brush;
 }
 
-.background-link:hover, .monkey-link:hover {
+.mystery-link:hover {
   color: #6e0d1a;
   font-size: 1rem;
 }
@@ -218,7 +218,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-in-right 900ms ease-out;
+  animation: fade-up 900ms ease-out;
 }
 
 .white-elephant-pic {
@@ -226,7 +226,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-in-left 900ms ease-out;
+  animation: fade-up 900ms ease-out;
 }
 
 .christmas-quizmas-pic {
@@ -234,7 +234,7 @@ footer {
   background-size: 22rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-in-right 900ms ease-out;
+  animation: fade-up 900ms ease-out;
 }
 
 .mystery-pic {
@@ -242,7 +242,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-in-left 900ms ease-out;
+  animation: fade-up 900ms ease-out;
 }
 
 .dinner-text, .white-elephant-text, .christmas-quizmas-text, .mystery-text {
