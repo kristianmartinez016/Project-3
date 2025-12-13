@@ -9,11 +9,11 @@ html {
   font-size: 16pt;
   text-align: center;
   font-family: Helvetica;
-  /*background-color: #6e0d1a;*/ /*just to have the color in case */
   background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/Texturelabs_Paper_304L.png?raw=true");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #6e0d1a;
 }
 
 /* FONTS */
@@ -114,16 +114,16 @@ footer {
   height: 20rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   line-height: 2rem;
   align-items: center;
 }
 
-.mystery-link {
+.background-link, .monkey-link {
   font-family: Caveat Brush;
 }
 
-.mystery-link:hover {
+.background-link:hover, .monkey-link:hover {
   color: #6e0d1a;
   font-size: 1rem;
 }
@@ -218,7 +218,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-up 900ms ease-out;
+  animation: fade-in-right 900ms ease-out;
 }
 
 .white-elephant-pic {
@@ -226,7 +226,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-up 900ms ease-out;
+  animation: fade-in-left 900ms ease-out;
 }
 
 .christmas-quizmas-pic {
@@ -234,7 +234,7 @@ footer {
   background-size: 22rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-up 900ms ease-out;
+  animation: fade-in-right 900ms ease-out;
 }
 
 .mystery-pic {
@@ -242,7 +242,7 @@ footer {
   background-size: 18rem;
   background-position: center;
   background-repeat: no-repeat;
-  animation: fade-up 900ms ease-out;
+  animation: fade-in-left 900ms ease-out;
 }
 
 .dinner-text, .white-elephant-text, .christmas-quizmas-text, .mystery-text {
